@@ -30,7 +30,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "jasperchen9-gemini-open-67"
-          entrypoint: "npm run build:deno"
+          entrypoint: ""
           root: ""
           
           
