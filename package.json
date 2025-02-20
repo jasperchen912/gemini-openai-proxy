@@ -1,7 +1,7 @@
 {
   "name": "gemini-openai-proxy",
   "private": true,
-  "version": "0.14.2",
+  "version": "0.15.0",
   "author": "zuisong",
   "homepage": "https://github.com/zuisong/gemini-openai-proxy",
   "type": "module",
@@ -18,13 +18,13 @@
     "test-cov": "deno test --coverage -A --env && deno coverage coverage --lcov --output=coverage/lcov.info"
   },
   "dependencies": {
-    "@hono/node-server": "1.13.7",
+    "@hono/node-server": "1.13.8",
     "eventsource-parser": "3.0.0",
     "itty-router": "5.0.18"
   },
   "devDependencies": {
     "@total-typescript/ts-reset": "0.6.1",
-    "esbuild": "^0.24.0"
+    "esbuild": "0.25.0"
   },
   "engines": {
     "node": ">=18.0.0",
